@@ -1,0 +1,12 @@
+{
+    "name": "Rosi add course",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "add course",
+    "content_scripts": [
+        {
+            "matches": ["https://sws.rosi.utoronto.ca/sws/reg/course/view.do"],
+            "js": ["content.js"]
+        }
+    ]
+}

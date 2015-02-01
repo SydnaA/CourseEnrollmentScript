@@ -1,0 +1,12 @@
+{
+    "name": "Rosi search course",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "search course",
+    "content_scripts": [
+        {
+            "matches": ["https://sws.rosi.utoronto.ca/sws/reg/course/edit.do?editCourse.dispatch"],
+            "js": ["content.js"]
+        }
+    ]
+}
